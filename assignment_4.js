@@ -68,13 +68,12 @@ const memberBudgets = picnicBudget(200); // user input field
 console.log(memberBudgets); // output
 
 // Problem 4: oddFriend
-const names = ['sagor', 'faysal', 'sajjad', 'soaib', 'jannat']; // Array declaer
+const names = ["abcd", "abcde", "abc"]; // Array declaer
 function oddFriend(names){
-    let odd = 0;
     for(let i = 0; i < names.length; i++){
-        if(names % 2 !== 0){
-            const element = names[i];
-            return element;
+        if(i % 2 !== 0){
+            const odd = names[i];
+            return odd;
         }
     }
 }
